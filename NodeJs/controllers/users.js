@@ -3,9 +3,6 @@ import { v4 as uuidv4} from 'uuid';
 let users = [];
 
 const getUser = (req, res) => {
-
-    console.log(users);
-
     res.send(users);
 }
 

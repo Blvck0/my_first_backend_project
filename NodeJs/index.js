@@ -10,12 +10,11 @@ app.use(bodyParser.json());
 app.use('/users', usersRoutes);
 
 app.get('/', (req, res) => {res.send(
-    'Hello, Welcome to my first backend project.\nFor you to see this message this means the get request is working'
+    'Hello, Welcome to my first backend project.\nFor you to see this message this means the GET request is working'
     );
 });
 
 app.listen(PORT, () => console.log(`Server running on a port: http://localhost:${PORT}`));
-
 
 /*
 npm init -y
